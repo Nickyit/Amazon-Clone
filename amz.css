@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+header .nav-bar1{
+    color: white;
+    height: 65px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.logo{
+    justify-content: center;
+    height: 30x;
+    width: 100px; 
+    border: 1px solid transparent;
+    display: flex;
+    padding: 7px 10px;
+}
+
+.logo-amz{
+    background-image: url(amz-logo.png);
+    height: 29px;
+    width: 100%; 
+    background-size: cover;
+    border-left: 10px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo:hover, .address:hover, .cart:hover, .signin:hover, .order:hover, .country:hover {
+    border: 1px solid white;
+}
+
+.address{
+    border: 1px solid transparent;
+    padding: 5px 10px;
+}
+
+.location, .id, #cart{
+    display: flex;
+    font-size: .7em;
+    font-weight: 550;
+    margin: 0;
+    margin-top: -2px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.address .size{
+    font-size: .7em;
+    color: rgb(191, 191, 191);
+    font-weight: 500;
+    margin-left: 18px;
+}
+
+.search{
+    display: flex;
+    margin-left: 6px;
+    height: 35px;
+    width: 500px;
+    border: 1.8px solid transparent;
+    border-radius: 4px;
+}
+
+.search_here{
+    font-size: .7em;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+}
+.search_here:hover{
+   background-color: rgb(209, 207, 207);
+}
+
+#All{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f2f0f0;
+    text-align: center;
+    width: 50px;
+    border: none;
+    font-size: .7em;
+}
+
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(232, 157, 71, 0.881);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 20px;
+}
+
+.search:hover{
+    border: 1.8px solid rgb(250, 180, 50);
+}
+
+.country{
+    display: flex;
+    width: 80px;
+    height: 15px;
+    padding: 4px 1px;
+    margin: 25px 20px 15px 20px;
+}
+.flag{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 1px; */
+}
+
+#country{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: 650;
+}
+
+.size{
+    font-size: .8em;
+    color: rgb(191, 191, 191);
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.signin{
+    margin-left: -5px;
+    border: 1px solid transparent;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.order{
+    margin-left: 15px;
+    border: 1px solid transparent;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.cart{
+    display: flex;
+   margin-left: 30px;  
+   margin-bottom: 20px;
+   text-align: center;
+   padding: 4px;
+   border: 1px solid transparent;
+}
+
+.iconcd{
+    font-size: 27px;
+    margin-bottom: -5px;
+    padding: 5px 0px;
+}
+
+.cart, #cart{
+    padding: 2px;
+    margin-top: 11px;
+}
+
+.nav-bar2{
+    background-color: #37475A;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    color: rgba(255, 255, 255, 0.909);
+    font-size: .7em;
+    font-weight: 450;
+    align-items: center;
+}
+
+.all{
+    mask-image: -10px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+#all{
+    margin-left: 4px;
+    font-weight: 600;
+}
+.bar{
+   font-size: 16px;
+}
+
+.menu{
+    margin-left: -20px;
+    margin-right: 40px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: -20px;
+}
+
+.list, li{
+    margin:  0px 10px;
+}
+
+#prime{
+    background-color: transparent;
+    border: none;
+    color:  rgba(255, 255, 255, 0.909);
+    font-size: .8em;
+}
+
+
+.main_p{
+    height: 150px;
+    width: 100%;
+}
+.p1{
+    background-image: url(amz1.png);
+    width: 100%;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element{
+    background: linear-gradient(rgba(159, 84, 23, 0.667), #dbcfcf, #dbd7d7);
+    width: 100%;
+    height: 1730px;
+}
+.shoping, .shoping2{
+    display: flex;
+    height: 320px;
+    width: 100%;
+    margin: 50px 0px 80px 5px ;
+    justify-content: space-between;
+} 
+
+.box{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 21.5%;
+    height: 345px;
+    background-color: white;
+    box-shadow: 0 0 9px rgb(203, 205, 201);
+    border: none;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.heading-2{
+    font-weight: 500;
+    font-size: 1.2em;
+    display: inline;
+}
+
+.product{
+    display: flex; 
+}
+.element img{
+   height: 100px;
+   width: 110px;
+   margin: 4px 10px;  
+}
+.product p{
+    font-weight: 550;
+    font-size: .55em;
+    margin-bottom: 8px;
+}
+
+.tsirt img{
+    height: 240px;
+    width: 240px;
+}
+.product1{
+    display: flex;   
+}
+.product1 p{
+    font-weight: 550;
+    font-size: .55em;
+    margin-bottom: 8px;
+}
+.product1 img{
+    height: 100px;
+    width: 110px;
+ }
+
+ .discount{
+    background-color: white;
+    width: 96.4%;
+    height: 250px;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 40px;
+ }
+.img_ele{
+    display: flex;
+}
+ .img_ele img{
+   width: 210px;
+    height: 200px;
+    margin-top: 20px;
+ }
+
+ a{
+   font-size: .7em;
+   font-weight: 500;
+   text-decoration: none;
+   color: rgb(0, 3, 5);
+ }
+
+ a:hover {
+    color: rgb(216, 142, 3);
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+ .sign_in{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+.pers h2{
+   margin-top: 30px;
+   font-size: 1.4em;
+ }
+
+ .pers button{
+    margin: 10px;
+    padding: 8px 88px;
+    background: linear-gradient(rgb(234, 182, 86), rgb(234, 154, 7));
+    border: 2px solid rgb(237, 203, 138);
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .pers p{
+    margin-top: -4px;
+    font-size: .9em;
+ }
+
+ .back p{
+    background-color: #37475A;
+    color: white;
+    font-size: .8em;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 18px 0px;
+ }
+
+ .back p:hover{
+    background-color:#232f3eee;
+ }
+
+ .foot_nav{
+    display: flex;
+    background-color:#232F3E;;
+    color: #ffffff;
+    height: 400px;
+    justify-content: center;
+}
+
+.foot_nav .f_n{
+   margin: 50px;
+   padding: 20px;
+}
+
+.foot_nav h2{
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.foot_nav ol{
+    padding: 0px;
+}
+
+.foot_nav li{
+    font-weight: 100;
+    font-size: .7em;
+    color: #ddd;
+    margin: 10px 0px ;
+    list-style: none;
+}
+
+li:hover, .contactus a:hover{ 
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+ }
+
+ .lang{
+    width: 100%;
+    height: 100px;
+    border-top: .01em solid #46494f;
+    background-color: #232F3E;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+
+ .lang .amz{
+    background-image: url(amz-logo.png);
+    width: 80px;
+    height: 25px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    margin-right: 80px;
+ }
+
+ .country1, .langu{
+    background-color: transparent;
+    padding:6px 20px 6px 20px;
+    color: #c5c4c4;
+    margin: 5px;
+    border: 1px solid #c4c1c1;
+    font-weight: 200;
+    border-radius: 3px;
+}
+
+.contactus{
+    background-color: #131A22;
+    height: 210px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.contactus p{
+   font-weight: 100;
+   font-size: .8em; 
+   margin: 5px;
+}
+
+.contactus a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 100;
+    font-size: .6m;
+}
+
+.contactus img{
+    width: 100%;
+}
