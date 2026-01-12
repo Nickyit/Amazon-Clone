@@ -10,4 +10,8 @@ It was built for learning and practice purposes to understand website layout, re
 - Product sections and banners  
 - Responsive design using CSS  
 
+## 🛠 Technologies Used
+- HTML5 – Page structure  
+- CSS3 – Styling and layout  
+
 
